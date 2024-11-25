@@ -15,6 +15,7 @@ import TrackQuery from "./pages/TrackQuery";
 import ChatPage from "./pages/ChatPage";
 import FeedbackPage from "./pages/FeedbackPage";
 import MyQueries from "./pages/MyQueries";
+import AnalyticsPage from "./pages/AnalyticsPage";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -27,13 +28,14 @@ ReactDOM.render(
         <Route path="/admin-dashboard" element={<AdminDashboard />} />
         <Route path="/create-query" element={<CreateQuery />} />
         <Route path="/campus-query" element={<CampusQuery />} />
-        <Route path="/student-hub-query" element={<StudentHubQuery />} />
+        <Route path="/studenthub-query" element={<StudentHubQuery />} />
         <Route path="/alumni-query" element={<AlumniQuery />} />
         <Route path="/faq" element={<FAQ />} />
         <Route path="/track-query" element={<TrackQuery />} />
         <Route path="/chat/:queryId" element={<ChatPage />} />
         <Route path="/feedback" element={<FeedbackPage />} />
         <Route path="/my-queries" element={<MyQueries />} />
+        <Route path="/analytics" element={<AnalyticsPage />} />
       </Routes>
     </Router>
   </React.StrictMode>,
