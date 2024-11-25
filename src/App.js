@@ -1,23 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { auth, database } from "./firebase";
 
 function App() {
+  // Test Firebase imports
+  console.log("Firebase Auth Instance:", auth);
+  console.log("Firebase Database Instance:", database);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h1>Welcome to Your React App</h1>
+      <p>Firebase is successfully configured!</p>
     </div>
   );
 }
