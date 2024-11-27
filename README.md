@@ -34,8 +34,7 @@ Technology Stack
 Setup for Local Development
 
 - Clone the Repository:
-    git clone https://github.com/your-repo-link/web-app.git
-
+    git clone https://github.com/rquinn01/XBCAD_VCHelpMe_webApp.git
 - Install Dependencies:
     cd web-app
     npm install
@@ -64,3 +63,7 @@ Analytics Dashboard:
 
 Feedback:
 - Students can submit ratings and feedback directly from the app.
+
+
+Youtube demo:
+https://youtu.be/Qhd3lnUNL8s
